@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Rubik;
+}
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+.container {
+  display: flex;
+}
+.main {
+  padding: 0;
+  margin: 0;
+}
+.main .card-1 {
+  height: 420px;
+  width: 250px;
+  margin-top: 160px;
+  margin-left: 50px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px 15px 15px 15px;
+}
+.main .card-1 .top {
+  background-color: hsl(246, 80%, 60%);
+  height: 290px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+}
+.main .card-1 .top img {
+  height: 65px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.main .card-1 .top h6 {
+  color: hsl(246, 70%, 82%);
+  padding-top: 35px;
+  font-weight: 100;
+  font-size: 13px;
+}
+.main .card-1 .top h2 {
+  color: #fff;
+  font-weight: 200;
+}
+.main .card-1 .bottom {
+  height: 160px;
+}
+.main .card-1 .bottom ul {
+  font-size: 14px;
+  font-weight: 200;
+  list-style-type: none;
+  padding: 15px 20px 55px 30px;
+  line-height: 2.5;
+}
+.main .card-1 .bottom ul li {
+  color: hsl(236, 18%, 45%);
+}
+.main .card-1 .bottom ul li.active {
+  color: #fff;
+}
+.main .card-1 .bottom ul li:hover,
+.active {
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+}
+.card {
+  width: 100px;
+  height: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 160px;
+}
+.cards .bottom p {
+  float: right;
+  padding-right: 20px;
+  font-size: 30px;
+}
+.cards .bottom p:hover {
+  font-weight: 500;
+}
+.cards .bottom h6 {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 20px 0 0 30px;
+}
+.cards .bottom h3 {
+  font-size: 45px;
+  font-weight: 100;
+  padding: 10px 0 0 35px;
+}
+.cards .bottom h5 {
+  color: hsl(235, 98%, 83%);
+  font-size: 12px;
+  font-weight: 200;
+  padding: 0 0 10px 40px;
+}
+.cards .bottom:hover {
+  background-color: hsl(237, 29%, 42%);
+  cursor: pointer;
+}
+.work {
+  background-color: hsl(15, 100%, 70%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 14px;
+}
+.work .top {
+  background-image: url("../images/icon-work.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.work .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+.play {
+  background-color: hsl(195, 74%, 62%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 8px;
+}
+.play .top {
+  background-image: url("../images/icon-play.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.play .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+}
+.study .top {
+  background-image: url("../images/icon-study.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.study .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 14px;
+  margin-top: 20px;
+}
+.exercise .top {
+  background-image: url("../images/icon-exercise.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.exercise .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+.social {
+  background-color: hsl(264, 64%, 52%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+.social .top {
+  background-image: url("../images/icon-social.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.social .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 20px;
+}
+.self-care .top {
+  background-image: url("../images/icon-self-care.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  height: 35px;
+}
+.self-care .bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 165px;
+  border-radius: 13px;
+}
+@media (max-width: 1200px) {
+  .container,
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .card-1 {
+    height: 200px;
+    margin-top: 60px;
+  }
+  .main .card-1 .top img {
+    height: 65px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+  }
+  .main .card-1 .top {
+    height: 150px;
+  }
+  .main .card-1 .bottom {
+    height: 25px;
+  }
+  .main .card-1 .bottom ul {
+    text-align: center;
+  }
+  .main .card-1 .bottom ul li {
+    padding: 25px 20px;
+    display: inline;
+    margin: 0 auto;
+  }
+  .cards {
+    width: 90%;
+    padding: 0;
+    padding-right: 0;
+    margin: 20px;
+  }
+  .cards .bottom {
+    height: 90%;
+  }
+  .cards h3 {
+    float: left;
+  }
+  .cards h5 {
+    font-size: 70px;
+    margin-right: 50px;
+    text-align: end;
+  }
+  .cards .bottom h5 {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  .cards .bottom p {
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .cards .bottom h6 {
+    font-size: 28px;
+    font-weight: 200;
+    padding: 40px 0 0 30px;
+  }
+  .work {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: -35px;
+  }
+  .play {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .study {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .exercise {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .social {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .self-care {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  .main .card-1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .main .card-1 {
+    margin-top: 60px;
+  }
+  .main .card-1 .top h2 {
+    font-size: 20px;
+  }
+
+  .cards .bottom h5 {
+    font-size: 14px;
+    justify-content: end;
+  }
+  .cards .bottom h3 {
+    padding-right: 3px;
+  }
+  .cards {
+    padding: 0;
+  }
+  .cards .bottom{
+      margin-left: -1px;
+  }
+}
